@@ -59,7 +59,7 @@
 // | | WIN | ALT | CTRL | SHIFT | |      |      | PREVIOUS   | VOLUME DOWN | VOLUME UP | NEXT | |
 // | |     |     |      |       | |      |      |            |             |           |      | |
 //               |      |       | |      | STOP | PLAY/PAUSE | MUTE        | 
-                        bindings = < file,
+                        bindings = <
    &none &none    &none    &none     &none     &none            &none        &none             &none             &none           &none      &none
    &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none            &none        &kp C_PREVIOUS    &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_NEXT &none
    &none &none    &none    &none     &none     &none            &none        &none             &none             &none           &none      &none
