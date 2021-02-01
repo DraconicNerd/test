@@ -53,8 +53,7 @@
                            &trans    &trans    &trans           &kp SPACE    &kp BSPC   &kp DEL
                         >;
                 };
-                
-                media_layer {
+                control_layer {
 // -----------------------------------------------------------------------------------------
 // | |     |     |      |       | |      |      |            |             |           |      | |
 // | | WIN | ALT | CTRL | SHIFT | |      |      | PREVIOUS   | VOLUME DOWN | VOLUME UP | NEXT | |
