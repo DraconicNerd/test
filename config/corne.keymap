@@ -128,7 +128,7 @@
    &tog BLUETOOTH   &kp Q      &kp W      &kp F     &kp P         &kp B                        &kp J             &kp L            &kp U            &kp Y        &kp SQT       &none
    &kp LCTRL        &kp A      &kp R      &kp S     &kp T         &mt LSHFT G                  &kp M             &mt LSHFT N      &mt LCTRL E      &mt LALT I   &mt LGUI O    &tog GAMING
    &kp LGUI         &kp Z      &kp X      &kp C     &kp D         &kp V                        &kp K             &kp H            &kp COMMA        &kp DOT      &kp FSLH      &none
-                                          kp ESC    &kp TAB       &kp RET                      &lt SYMBOLS SPACE &lt NUMBERS BSPC &lt FUNCTION DEL
+                                          &kp ESC   &kp TAB       &kp RET                      &lt SYMBOLS SPACE &lt NUMBERS BSPC &lt FUNCTION DEL
                         >;
                  };
                  bluetooth_layer {
