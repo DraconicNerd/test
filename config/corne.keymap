@@ -30,14 +30,14 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // | BT   |  Q      |  W      |  F       |  P       |  B       |   |  J      |  L       |  U       |  Y      |  '      | |
-// | CTRL |  WIN/A  |  ALT/R  |  CTRL/S  |  SHFT/T  |  G       |   |  M      |  SHFT/N  |  CTRL/E  |  ALT/I  |  WIN/O  |  GAMING  |
+// | CTRL |  WIN/A  |  ALT/R  |  CTRL/S  |  SHFT/T  |  G       |   |  M      |  SHFT/N  |  CTRL/E  |  ALT/I  |  WIN/O  |BLUETOOTH|
 // | WIN  |  Z      |  X      |  C       |  D       |  V       |   |  K      |  H       |  ,       |  .      |  /      | |
-//                            |MEDIA/ESC | NAV/TAB  | NUM/ENT  |   |SYM/SPACE| PAD/BKSPC| FN/DEL |
+//                            |MEDIA/ESC | NAV/SPACE| PAD/TAB  |   |SYM/ENTER| NUM/BKSPC| FN/DEL |
                         bindings = <
-   &tog BLUETOOTH   &kp Q      &kp W      &kp F         &kp P              &kp B                        &kp J             &kp L           &kp U           &kp Y        &kp SQT       &none
-   &kp LCTRL        &mt LGUI A &mt LALT R &mt LCTRL S   &mt LSHFT T        &kp G                        &kp M             &mt LSHFT N     &mt LCTRL E     &mt LALT I   &mt LGUI O    &tog GAMING
+   &tog GAMING      &kp Q      &kp W      &kp F         &kp P              &kp B                        &kp J             &kp L           &kp U           &kp Y        &kp SQT       &none
+   &kp LCTRL        &mt LGUI A &mt LALT R &mt LCTRL S   &mt LSHFT T        &kp G                        &kp M             &mt LSHFT N     &mt LCTRL E     &mt LALT I   &mt LGUI O    &mo BLUETOOTH
    &kp LGUI         &kp Z      &kp X      &kp C         &kp D              &kp V                        &kp K             &kp H           &kp COMMA       &kp DOT      &kp FSLH      &none
-                                   &lt MEDIA ESC &lt NAVIGATION TAB &lt NUMPAD RET                      &lt SYMBOLS SPACE &lt NUMBERS BSPC &lt FUNCTION DEL
+                                   &lt MEDIA ESC &lt NAVIGATION SPACE &lt NUMPAD TAB                    &lt SYMBOLS RET &lt NUMBERS BSPC &lt FUNCTION DEL
                         >;
                 };
                 navigation_layer {
@@ -120,15 +120,15 @@
                 };
                 gaming_layer {
 // -----------------------------------------------------------------------------------------
-// | BT   |  Q  |  W  |  F  |  P  |  B         |   |  J      |  L       |  U       |  Y      |  '      | |
-// | CTRL |  A  |  R  |  S  |  T  |  SHFT/G    |   |  M      |  SHFT/N  |  CTRL/E  |  ALT/I  |  WIN/O  | GAMING  |
+// |GAMING|  Q  |  W  |  F  |  P  |  B         |   |  J      |  L       |  U       |  Y      |  '      | |
+// | CTRL |  A  |  R  |  S  |  T  |  SHFT/G    |   |  M      |  SHFT/N  |  CTRL/E  |  ALT/I  |  WIN/O  | BLUETOOTH |
 // | WIN  |  Z  |  X  |  C  |  D  |  V         |   |  K      |  H       |  ,       |  .      |  /      | |
-//                    | ESC | TAB |  ENTER     |   |SYM/SPACE| PAD/BKSPC| FN/DEL |
+//                    | ESC |SPACE|  TAB       |   |SYM/ENTER| PAD/BKSPC| FN/DEL |
                         bindings = <
-   &tog BLUETOOTH   &kp Q      &kp W      &kp F     &kp P         &kp B                        &kp J             &kp L            &kp U            &kp Y        &kp SQT       &none
-   &kp LCTRL        &kp A      &kp R      &kp S     &kp T         &mt LSHFT G                  &kp M             &mt LSHFT N      &mt LCTRL E      &mt LALT I   &mt LGUI O    &tog GAMING
+   &tog GAMING      &kp Q      &kp W      &kp F     &kp P         &kp B                        &kp J             &kp L            &kp U            &kp Y        &kp SQT       &none
+   &kp LCTRL        &kp A      &kp R      &kp S     &kp T         &mt LSHFT G                  &kp M             &mt LSHFT N      &mt LCTRL E      &mt LALT I   &mt LGUI O    &mo BLUETOOTH
    &kp LGUI         &kp Z      &kp X      &kp C     &kp D         &kp V                        &kp K             &kp H            &kp COMMA        &kp DOT      &kp FSLH      &none
-                                          &kp ESC   &kp TAB       &kp RET                      &lt SYMBOLS SPACE &lt NUMBERS BSPC &lt FUNCTION DEL
+                                          &kp ESC   &kp SPACE     &kp TAB                      &lt SYMBOLS ENTER &lt NUMBERS BSPC &lt FUNCTION DEL
                         >;
                  };
                  bluetooth_layer {
