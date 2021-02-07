@@ -29,7 +29,7 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | BT   |  Q      |  W      |  F       |  P       |  B       |   |  J      |  L       |  U       |  Y      |  '      | |
+// |GAMING|  Q      |  W      |  F       |  P       |  B       |   |  J      |  L       |  U       |  Y      |  '      | |
 // | CTRL |  WIN/A  |  ALT/R  |  CTRL/S  |  SHFT/T  |  G       |   |  M      |  SHFT/N  |  CTRL/E  |  ALT/I  |  WIN/O  |BLUETOOTH|
 // | WIN  |  Z      |  X      |  C       |  D       |  V       |   |  K      |  H       |  ,       |  .      |  /      | |
 //                            |MEDIA/ESC | NAV/SPACE| PAD/TAB  |   |SYM/ENTER| NUM/BKSPC| FN/DEL |
